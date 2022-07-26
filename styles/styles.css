@@ -5,6 +5,12 @@
   list-style: none;
 }
 
+/*Se habilita el modo dark o light, :root contiene variables*/
+/*ULTIMO MINUTO DEL VIDEO 6:33*/
+:root {
+  --color-primary: #191d2b;
+}
+
 body {
   background-color: aqua;
 }/*# sourceMappingURL=styles.css.map */

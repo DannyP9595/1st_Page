@@ -24,4 +24,11 @@
 body{
   background-color: var(--color-primary);
   font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 1.1rem;
+  color: var(--color-white);
+  transition:all .4s ease-in-out;
+  -webkit-transition:all .4s ease-in-out;
+  -moz-transition:all .4s ease-in-out;
+  -ms-transition:all .4s ease-in-out;
+  -o-transition:all .4s ease-in-out;
 }

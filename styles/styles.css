@@ -19,7 +19,7 @@
     --fw-reg: 300;
     --fw-bold: 900;
 
-    --clr-bg: #fff;
+    --clr-light: #fff;
     --clr-dark: #303030;
     --clr-accent: #16e0bd;
 
@@ -41,5 +41,12 @@
       --fs-body: 1.125rem;
     }
   
+}
+
+/* Se pueden utilzar las variables de los selectores anteriormente configuradas */
+body{
+  background: var(--clr-light);
+   color: var(--clr-dark);
+
 }
 

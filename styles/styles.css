@@ -5,8 +5,41 @@
   list-style: none;
 }
 
-/*Se habilita el modo dark o light, :root contiene variables*/
-/*ULTIMO MINUTO DEL VIDEO 6:33*/
-:root {
-  --color-primary: #191d2b;
+/* --ff = Font family*/
+/* --fw = Fontweight*/
+/* --clr-bg = Color background */
+/* --fs = Font size*/
+
+/* Custom properties, update these for our own fonts*/
+
+:root{
+    --ff-primary: 'Mochiy Pop One', sans-serif;
+    --ff-secondary:'Nunito', sans-serif;
+
+    --fw-reg: 300;
+    --fw-bold: 900;
+
+    --clr-bg: #fff;
+    --clr-dark: #303030;
+    --clr-accent: #16e0bd;
+
+    --fs-h1: 3rem;
+    --fs-h2: 2rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+
+
+
 }
+
+/* SASS ----> you can change fonts within the media query */
+@media (min-width: 800px){
+    :root{
+      --fs-h1: 4.5;
+      --fs-h2: 3.75 rem;
+      --fs-h3: 1.5rem;
+      --fs-body: 1.125rem;
+    }
+  
+}
+

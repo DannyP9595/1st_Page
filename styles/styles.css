@@ -53,5 +53,9 @@ body{
   line-height: 1.6;
 }
 
-
+/*se agrega el 100% para que se adapte a cualquier tipo de pantalla*/
+img{
+  display: block;
+  max-width: 100%;
+}
 

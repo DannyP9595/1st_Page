@@ -59,6 +59,8 @@ img{
   max-width: 100%;
 }
 
+strong{ font-weight: var(--fw-bold);}
+
 /*Tipografia*/
 /*El tecto se ajustara al tamano de la pantalla que estemos usando*/
 h1,
@@ -71,3 +73,28 @@ h3{
 h1{font-size: var(--fs-h1);}
 h2{font-size: var(--fs-h2);}
 h3{font-size: var(--fs-h3);} 
+
+/*STYLING THE TITLES AND SUBTITLES*/
+
+.section__title{
+  margin-bottom: .25em;
+}
+.section__title--intro{
+  font-weight: var(--fw-reg);
+}
+/*selector complejo, toma 2 propiedades*/
+.section__title--intro strong{
+  display: block;
+}
+
+.section__subtitle{
+  margin: 0;
+  font-size: var(--fs-h3);
+}
+
+.section__subtitle--intro,
+.section__subtitle--about{
+background:var(--clr-accent);
+font-family: var(--ff-secondary);
+
+}

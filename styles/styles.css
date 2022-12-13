@@ -98,3 +98,13 @@ background:var(--clr-accent);
 font-family: var(--ff-secondary);
 
 }
+
+
+/*HEADER*/
+nav{ display:none; }
+
+
+/*INTRO SECTION*/
+.intro{
+  position: relative;
+}

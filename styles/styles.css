@@ -1,26 +1,31 @@
-. {
+* {
     width: auto;
     height: auto;
-   
-
+    margin: 0;
+    padding: 0;
+    text-align: center;
  
 }
 
+
 header{
     background-color: #1f2937;
+    
 
     
 }
 
-nav{
+header nav{
     
     display: flex;
     justify-content: flex-end;
     
 }
 
-a{
+header nav a{
     display: block;
     padding-left: 10px;
     margin-right: 2%;
 }
+
+

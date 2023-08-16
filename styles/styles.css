@@ -1,9 +1,14 @@
 . {
+    width: auto;
+    height: auto;
+   
+
  
 }
 
 header{
     background-color: #1f2937;
+
     
 }
 
@@ -17,4 +22,5 @@ nav{
 a{
     display: block;
     padding-left: 10px;
+    margin-right: 2%;
 }

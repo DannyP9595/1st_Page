@@ -32,6 +32,7 @@ header nav a{
     background-color: #1f2937;
     padding: 3%;
     justify-content: center;
+    align-items: center;
     
 }
 
@@ -55,7 +56,9 @@ header nav a{
     
 }
 
-references{
-
+.references{
+    display: block;
+    padding: 5%;
+    margin: 5%;
 }
 

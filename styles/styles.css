@@ -40,5 +40,15 @@ header nav a{
     height: 300px;
 }
 
+.random-info{
+    display: flex;
+    justify-content: center;
+}
 
+.random-info .gym-key{
+    height: 400px;
+    width:  400px;
+   
+    
+}
 

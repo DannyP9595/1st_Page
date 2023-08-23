@@ -3,14 +3,45 @@
     height: auto;
     margin: 0;
     padding: 0;
-    text-align: center;
+    
  
 }
 
+/*
+BUTTON SET UP*/
+.btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+  }
+  
+  .btn:hover {
+    transition: 1s ease-in-out;
+    background: #4F95DA;
+  }
+  
+  .btn:hover svg {
+    stroke-dashoffset: -380;
+  }
+  
+  .btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }
+  
+
+/*CONTAINER*/
 .container {
     display: flex;
     flex-direction: column;
 }
+
+/*HEADER*/
 header{
     background-color: #1f2937;  
     
@@ -27,6 +58,8 @@ header nav a{
     margin-right: 2%;
 }
 
+
+/*INTRO*/
 .intro{
     display: flex;
     background-color: #1f2937;
@@ -42,6 +75,8 @@ header nav a{
 }
 
 
+
+/*INFOR*/
 .hello{
     margin-top: 5%;
 }
@@ -54,12 +89,15 @@ header nav a{
     height: 350px;
     width:  350px;
     padding: 3%;
+    background-color: #e5e7eb;
     
    
     
 }
 
 
+
+/*REFERENCES*/
 .references{
     width: 100%;
     display: flex;
@@ -78,6 +116,8 @@ header nav a{
     font-family: 'Shadows Into Light', cursive;
 }
 
+
+/*FOOTER*/
 footer{
     display: flex;   
     flex-direction: column;

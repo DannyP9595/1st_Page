@@ -3,6 +3,7 @@
     height: auto;
     margin: 0;
     padding: 0;
+    text-align: center;
     
  
 }
@@ -10,7 +11,7 @@
 /*
 BUTTON SET UP*/
 .btn {
-    width: 180px;
+    width: 160px;
     height: 60px;
     cursor: pointer;
     background: transparent;
@@ -32,6 +33,8 @@ BUTTON SET UP*/
     color: white;
     font-size: 18px;
     font-weight: 100;
+    font-family: 'Irish Grover', cursive;
+    font-family: 'Shadows Into Light', cursive;
   }
   
 
@@ -53,9 +56,12 @@ header nav{
     
 }
 header nav a{
-    display: block;
     padding-left: 10px;
     margin-right: 2%;
+    font-size:xx-large;
+    color: white;
+    font-family: 'Irish Grover', cursive;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 
@@ -69,9 +75,9 @@ header nav a{
     text-align:justify;
     
 }
-.gym-guy-image img{
-    width: 400px;
-    height: 300px;
+.gym-guy-video video{
+    width: 600px;
+    height: 500px;
 }
 
 
